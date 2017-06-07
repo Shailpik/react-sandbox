@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ux/form-element": "^10.7.0",
+    "@ux/uxcore2": "^3.14.3",
     "axios": "^0.16.1",
+    "babel-preset-es2015": "^6.24.1",
     "lodash": "^4.17.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"

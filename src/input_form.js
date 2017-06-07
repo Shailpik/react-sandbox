@@ -25,7 +25,7 @@ class InputForm extends Component {
          last_name : this.state.last_name,
          age : parseInt(this.state.age, 10)
        };
-       this.props.updateTable(entry);
+       this.props.addUser(entry);
        this.setState({
          first_name: '',
          last_name: '',
